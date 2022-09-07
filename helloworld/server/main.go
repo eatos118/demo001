@@ -10,5 +10,5 @@ func main() {
 	p := pb.Person{
 		Name: "test",
 	}
-	fmt.Print(p)
+	fmt.Print(p.String())
 }
