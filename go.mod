@@ -1,4 +1,4 @@
-module demo001
+module github.com/eatos118/demo001
 
 go 1.16
 
