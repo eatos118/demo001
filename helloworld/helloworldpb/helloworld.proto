@@ -1,9 +1,6 @@
 syntax = "proto3";
 
-// all generated files will be in this dir
-option go_package = "./";
-
-package helloworldpb;
+option go_package = "helloworld/helloworldpb";
 
 import "google/protobuf/timestamp.proto";
 

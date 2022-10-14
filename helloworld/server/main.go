@@ -7,8 +7,8 @@ import (
 )
 
 func main() {
-	p := pb.Person{
-		Name: "test",
+	p := pb.SimpleRequest{
+		PageNumber: 1,
 	}
 	fmt.Print(p.String())
 }
