@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	pb "github.com/eatos118/demo001/helloworld/helloworldpb"
+	"github.com/eatos118/demo001/helloworld/proto/pb"
 )
 
 func main() {
