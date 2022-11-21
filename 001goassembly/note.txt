@@ -1,4 +1,5 @@
 option+shift+9 => ·
-
+go assembly文件必须有结尾换行符
+go assembly文件不能有注释，否则编译失败
 
 

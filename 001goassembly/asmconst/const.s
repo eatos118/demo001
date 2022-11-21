@@ -16,3 +16,9 @@ GLOBL ·TestStr(SB),NOPTR,$40
 DATA ·TestStr+0(SB)/8,$·TestStr+16(SB)
 DATA ·TestStr+8(SB)/8,$17
 DATA ·TestStr+16(SB)/24,$"Hello go assembly"
+
+GLOBL ·Hello(SB),NOPTR,$40
+
+DATA ·Hello+0(SB)/8,$·Hello+16(SB)
+DATA ·Hello+8(SB)/8,$11
+DATA ·Hello+16(SB)/24,$"Hello world"

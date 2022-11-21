@@ -1,9 +1,13 @@
 package goassembly
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/eatos118/demo001/001goassembly/asmconst"
+)
 
 func TestMain(t *testing.T) {
-	println(TestInt)
+	println(asmconst.TestInt)
 
-	println(TestStr)
+	println(asmconst.Hello)
 }
